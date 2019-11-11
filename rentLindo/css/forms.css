@@ -1,0 +1,69 @@
+.form-item{
+	padding: 5px;
+}
+
+.msg-erro{ 
+	padding-left: 200px;
+	padding-top: 5px;
+	color: red; 
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.label-alinhado{
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="number"], select, textarea {
+	border: 1px solid #5995DA;
+	padding: 3px;
+}
+
+input[type="submit"], input[type="reset"], button{
+	background-color: #5995DA;
+	color: white;
+	padding: 3px 20px;
+	border: none;
+}
+input[type="submit"]:hover, input[type="reset"]:hover, button:hover{
+	box-shadow: 2px 2px 2px #000;
+	cursor: pointer;
+}
+
+#mensagem-empresa{
+	font-size: 1em;
+	font-style: italic;
+	color: blue;
+}
+
+/*alterações para melhor exibição em dispositivos mobile*/
+
+@media only screen and (max-width: 430px) {
+	.col-2{
+		width: 100%;
+	}
+
+	.form-item{
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.label-alinhado{
+		width: 100%;
+		text-align: left;
+		padding-bottom: 5px;
+	}
+
+	input[type="text"], input[type="email"], input[type="password"]{
+		max-width: 100%;
+	}
+
+	.msg-erro{
+		width: 100%;
+		padding-left: 0;	
+	}
+}
+
+/*fim das alterações*/
