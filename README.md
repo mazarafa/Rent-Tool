@@ -16,7 +16,7 @@ Construa a página produto.php para o site Rent a Tool.
 -> Abaixo destes dados, um header "Detalhes do produto" seguido dos demais dados (nome do fabricante, tensão, descrição - respeitando as quebras de linha originais presentes no preenchimento do campo - e lista de categorias às quais o produto pertence, exibidas lado a lado na mesma linha).
 
 
-**Alterações feitas em .. **
+**Alterações feitas em ..**
 
 -> pagina mais_vendidos
 
